@@ -7,29 +7,11 @@
     <title>Sinar Bersama Sdn Bhd - Home</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="components.js"></script>
 </head>
-<script>
-    function toggleNav() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-</script>
 
 <body>
-    <div class="topnav" id="myTopnav">
-        <a href="index.html" class="logo-link">
-            <img src="images/SB_Logo.png" alt="Sinar Bersama Sdn Bhd Logo" class="logo">
-        </a>
-        <a href="index.html">Home</a>
-        <a href="about.html">About Us</a>
-        <a href="services.html">Services</a>
-        <a href="contact.html">Contact Us</a>
-        <a href="javascript:void(0);" class="icon" onclick="toggleNav()">&#9776;</a>
-    </div>
+    <div id="navbar"></div>
 
 
     <!-- FRONT SECTION -->
@@ -85,11 +67,7 @@
 
 
     <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2025 Sinar Bersama Sdn Bhd. All rights reserved.</p>
-        <p>Address: LOT 14, 1ST FLOOR SEDCO LIGHT INDUSTRIAL JALAN KOLOMBONG, 88450, KOTA KINABALU, SABAH.</p>
-        <p>Tel: 012-5118107</p>
-    </footer>
+    <div id="footer"></div>
 </body>
 
 </html>
