@@ -1,7 +1,7 @@
 const NAVBAR_HTML = `
 <div class="topnav" id="myTopnav">
     <a href="index.html" class="logo-link">
-        <img src="images/SB_Logo.png" alt="Sinar Bersama Sdn Bhd Logo" class="logo">
+        <img src="images/logo_w.svg" alt="Sinar Bersama Sdn Bhd Logo" class="logo">
     </a>
     <a href="index.html">Home</a>
     <a href="about.html">About Us</a>
